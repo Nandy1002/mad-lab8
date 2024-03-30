@@ -1,0 +1,45 @@
+{
+    "name": "my_first_manifest",
+    "short_name": "first_manifest",
+    "start_url": "/first.html",
+    "display": "fullscreen",
+    "background_color": "#ffff00",
+    "description": "A simple application for manifestation",
+    "orientation": "portrait-primary",
+    "theme_color": "#2196F3",
+    "icons": [
+        {
+            "src": "./icons/rvce_logo.png",
+            "sizes": "768x768",
+            "type": "image/png"
+        },
+        {
+            "src": "./icons/rvce_logo(1).png",
+            "sizes": "108x108",
+            "type": "image/png"
+        },
+        {
+            "src": "./icons/rvce_logo(2).png",
+            "sizes": "204x204",
+            "type": "image/png"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "./images/screenshot1.png",
+            "type": "image/png",
+            "sizes": "1366x768",
+            "form_factor": "narrow"
+        }
+    ],
+    "protocol_handlers": [
+        {
+            "protocol": "web+jngl",
+            "url": "/lookup?type=%s"
+        },
+        {
+            "protocol": "web+jnglstore",
+            "url": "/shop?for=%s"
+        }
+    ]
+}
